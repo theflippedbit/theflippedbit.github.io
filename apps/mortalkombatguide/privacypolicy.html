@@ -106,7 +106,12 @@
 </section>
 
 <footer>
-    &copy; 2025 The Flipped Bit. All rights reserved. <a href="privacypolicy.html">Privacy Policy</a>
+    &copy; <span id="year"></span> The Flipped Bit. All rights reserved. <a href="privacypolicy.html">Privacy Policy</a>
 </footer>
+
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
+
 </body>
 </html>
